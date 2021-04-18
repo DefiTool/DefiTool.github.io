@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1"><meta name=renderer content=webkit><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel=icon href=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/favicon.ico><meta name=author content=defitool.app><title>DefiTool</title><meta name=description content="defitool.app It's an online digital currency toolbox"><meta name=keywords content="defi, NTF, defitool.app"><style>.app-loading{
+        width: 100vw;
+        height: 100vh;
+        background: rgba(43, 49, 60, 1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: -webkit-box;
+        display: flex;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .app-loading img{
+        width: 140px;
+      }
+      .app-loading p{
+        font-size: 30px;
+        margin: 20px 0;
+        color: #30b08f;
+        font-weight: bold;
+      }
+      .lds-ellipsis{ display: inline-block; position: relative; width: 80px; height: 80px; }
+      .lds-ellipsis div{ position: absolute; top: 33px; width: 13px; height: 13px; border-radius: 50%; background: #fff; animation-timing-function: cubic-bezier(0, 1, 1, 0); }
+      .lds-ellipsis div:nth-child(1){ left: 8px; animation: lds-ellipsis1 0.6s infinite; }
+      .lds-ellipsis div:nth-child(2){ left: 8px; animation: lds-ellipsis2 0.6s infinite; }
+      .lds-ellipsis div:nth-child(3){ left: 32px; animation: lds-ellipsis2 0.6s infinite; }
+      .lds-ellipsis div:nth-child(4){ left: 56px; animation: lds-ellipsis3 0.6s infinite; }
+
+      @keyframes lds-ellipsis1{
+        0%{ transform: scale(0); }
+        100%{ transform: scale(1); }
+      }
+
+      @keyframes lds-ellipsis3{
+        0%{ transform: scale(1); }
+        100%{ transform: scale(0); }
+      }
+
+      @keyframes lds-ellipsis2{
+        0%{ transform: translate(0, 0); }
+        100%{ transform: translate(24px, 0); }
+      }</style><link href=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/css/app.19f83c45.css rel=preload as=style><link href=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/js/app.e9f404c1.js rel=preload as=script><link href=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/js/chunk-elementUI.261d943b.js rel=preload as=script><link href=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/js/chunk-walletconnect.0dc69782.js rel=preload as=script><link href=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/css/app.19f83c45.css rel=stylesheet></head><body><div class=app-loading id=app-loading><img src=https://cdn.jsdelivr.net/gh/c0deCn/wiki@master/logo.png alt=logo><p>DefiTool.App</p><div class=lds-ellipsis><div></div><div></div><div></div><div></div></div></div><div id=app></div><script>(function(e){function n(n){for(var r,c,o=n[0],d=n[1],f=n[2],i=0,h=[];i<o.length;i++)c=o[i],Object.prototype.hasOwnProperty.call(u,c)&&u[c]&&h.push(u[c][0]),u[c]=0;for(r in d)Object.prototype.hasOwnProperty.call(d,r)&&(e[r]=d[r]);l&&l(n);while(h.length)h.shift()();return a.push.apply(a,f||[]),t()}function t(){for(var e,n=0;n<a.length;n++){for(var t=a[n],r=!0,c=1;c<t.length;c++){var o=t[c];0!==u[o]&&(r=!1)}r&&(a.splice(n--,1),e=d(d.s=t[0]))}return e}var r={},c={runtime:0},u={runtime:0},a=[];function o(e){return d.p+"static/js/"+({}[e]||e)+"."+{"chunk-219d6711":"bedefb22","chunk-264b362c":"0278081e","chunk-2913104c":"995578d1","chunk-2d2105d3":"3b1c68bf","chunk-2d230fe7":"5895a2d3","chunk-410cb4ca":"773d4998","chunk-48bd24b9":"13f3787e","chunk-2816f6ea":"968026c7","chunk-96d9c65c":"6f3b0a21","chunk-46a40508":"2c39fb16","chunk-6e70a356":"ed389f12","chunk-70217496":"edecb025","chunk-8a94aa7a":"db6f1fee","chunk-bdd5beca":"dc30851e","chunk-483c65d6":"480830f1","chunk-c5a7cb3a":"5bbe9dbf"}[e]+".js"}function d(n){if(r[n])return r[n].exports;var t=r[n]={i:n,l:!1,exports:{}};return e[n].call(t.exports,t,t.exports,d),t.l=!0,t.exports}d.e=function(e){var n=[],t={"chunk-219d6711":1,"chunk-264b362c":1,"chunk-2913104c":1,"chunk-2816f6ea":1,"chunk-46a40508":1,"chunk-6e70a356":1,"chunk-70217496":1,"chunk-8a94aa7a":1,"chunk-483c65d6":1,"chunk-c5a7cb3a":1};c[e]?n.push(c[e]):0!==c[e]&&t[e]&&n.push(c[e]=new Promise((function(n,t){for(var r="static/css/"+({}[e]||e)+"."+{"chunk-219d6711":"3fe7b0c4","chunk-264b362c":"b1dd7a76","chunk-2913104c":"955a563d","chunk-2d2105d3":"31d6cfe0","chunk-2d230fe7":"31d6cfe0","chunk-410cb4ca":"31d6cfe0","chunk-48bd24b9":"31d6cfe0","chunk-2816f6ea":"df5c0f58","chunk-96d9c65c":"31d6cfe0","chunk-46a40508":"549c7543","chunk-6e70a356":"55ec8d04","chunk-70217496":"ff3d8e22","chunk-8a94aa7a":"995364d7","chunk-bdd5beca":"31d6cfe0","chunk-483c65d6":"067ca693","chunk-c5a7cb3a":"d145214a"}[e]+".css",u=d.p+r,a=document.getElementsByTagName("link"),o=0;o<a.length;o++){var f=a[o],i=f.getAttribute("data-href")||f.getAttribute("href");if("stylesheet"===f.rel&&(i===r||i===u))return n()}var h=document.getElementsByTagName("style");for(o=0;o<h.length;o++){f=h[o],i=f.getAttribute("data-href");if(i===r||i===u)return n()}var l=document.createElement("link");l.rel="stylesheet",l.type="text/css",l.onload=n,l.onerror=function(n){var r=n&&n.target&&n.target.src||u,a=new Error("Loading CSS chunk "+e+" failed.\n("+r+")");a.code="CSS_CHUNK_LOAD_FAILED",a.request=r,delete c[e],l.parentNode.removeChild(l),t(a)},l.href=u;var s=document.getElementsByTagName("head")[0];s.appendChild(l)})).then((function(){c[e]=0})));var r=u[e];if(0!==r)if(r)n.push(r[2]);else{var a=new Promise((function(n,t){r=u[e]=[n,t]}));n.push(r[2]=a);var f,i=document.createElement("script");i.charset="utf-8",i.timeout=120,d.nc&&i.setAttribute("nonce",d.nc),i.src=o(e);var h=new Error;f=function(n){i.onerror=i.onload=null,clearTimeout(l);var t=u[e];if(0!==t){if(t){var r=n&&("load"===n.type?"missing":n.type),c=n&&n.target&&n.target.src;h.message="Loading chunk "+e+" failed.\n("+r+": "+c+")",h.name="ChunkLoadError",h.type=r,h.request=c,t[1](h)}u[e]=void 0}};var l=setTimeout((function(){f({type:"timeout",target:i})}),12e4);i.onerror=i.onload=f,document.head.appendChild(i)}return Promise.all(n)},d.m=e,d.c=r,d.d=function(e,n,t){d.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:t})},d.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},d.t=function(e,n){if(1&n&&(e=d(e)),8&n)return e;if(4&n&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(d.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var r in e)d.d(t,r,function(n){return e[n]}.bind(null,r));return t},d.n=function(e){var n=e&&e.__esModule?function(){return e["default"]}:function(){return e};return d.d(n,"a",n),n},d.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},d.p="https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/",d.oe=function(e){throw console.error(e),e};var f=window["webpackJsonp"]=window["webpackJsonp"]||[],i=f.push.bind(f);f.push=n,f=f.slice();for(var h=0;h<f.length;h++)n(f[h]);var l=i;t()})([]);</script><script src=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/js/chunk-elementUI.261d943b.js></script><script src=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/js/chunk-walletconnect.0dc69782.js></script><script src=https://cdn.jsdelivr.net/gh/CoinTool-App/defitool.github.io/static/js/app.e9f404c1.js></script></body><div style="display: none;"><script src="https://s4.cnzz.com/z_stat.php?id=1279543822&web_id=1279543822"></script></div></html>
